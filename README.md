@@ -12,7 +12,7 @@ pod 'MMMArrayChanges', :git => 'https://github.com/mediamonks/MMMArrayChanges.gi
 you can now put a single line in the beginning of the `Podfile`:
 
 ```Ruby
-source 'https://github.com/mediamonks/MMMTemple'
+source 'git@github.com:mediamonks/MMMTemple.git'
 ```
 
 And then continue referencing the pods by their names only:
