@@ -1,4 +1,4 @@
-# MMMTemple
+# MMMSpecs
 
 A CocoaPods spec repository for pods made by [MediaMonks](https://www.mediamonks.com/).
 
