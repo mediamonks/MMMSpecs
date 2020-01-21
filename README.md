@@ -12,7 +12,7 @@ pod 'MMMArrayChanges', :git => 'https://github.com/mediamonks/MMMArrayChanges.gi
 you can now put two lines in the beginning of the `Podfile`:
 
 ```Ruby
-source 'git@github.com:mediamonks/MMMSpecs.git'
+source 'https://github.com/mediamonks/MMMSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 ```
 
