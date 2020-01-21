@@ -9,11 +9,14 @@ pod 'MMMArrayChanges', :git => 'https://github.com/mediamonks/MMMArrayChanges.gi
 ...
 ```
 
-you can now put a single line in the beginning of the `Podfile`:
+you can now put two lines in the beginning of the `Podfile`:
 
 ```Ruby
 source 'git@github.com:mediamonks/MMMSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 ```
+
+(The second line is the main/default CocoaPods spec repo that has to be mentioned explicitly when `source` is used.)
 
 And then reference our pods by their names only:
 
