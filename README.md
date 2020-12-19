@@ -13,10 +13,10 @@ you can now put two lines in the beginning of the `Podfile`:
 
 ```Ruby
 source 'https://github.com/mediamonks/MMMSpecs.git'
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
 ```
 
-(The second line is the main/default CocoaPods spec repo that has to be mentioned explicitly when `source` is used.)
+(The second line is the main/default CocoaPods spec repo that has to be mentioned when custom sources are used.)
 
 And then reference our pods by their names only:
 
