@@ -1,6 +1,6 @@
 #
 # MMMTestCase. Part of MMMTemple.
-# Copyright (C) 2015-2020 MediaMonks. All rights reserved.
+# Copyright (C) 2015-2022 MediaMonks. All rights reserved.
 #
 
 Pod::Spec.new do |s|
@@ -14,8 +14,7 @@ Pod::Spec.new do |s|
 	s.authors = "MediaMonks"
 	s.source = { :git => "https://github.com/mediamonks/#{s.name}.git", :tag => s.version.to_s }
 
-	s.platform = :ios
-	s.ios.deployment_target = '11.0'
+	s.platform = :ios, '11.0'
 
 	s.framework = 'XCTest'
 	s.dependency 'FBSnapshotTestCase/Core'
